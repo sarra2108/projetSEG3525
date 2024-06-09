@@ -1,0 +1,322 @@
+
+ /* for nav and footer */
+
+  
+  .navbar {
+    background: rgb(240, 239, 239);
+    color: rgb(14, 14, 14);
+  }
+  
+  .navbar-brand {
+    color: black;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .navbar-brand:hover {
+    color:black;
+  }
+  
+  span {
+    color: rgb(237, 102, 102);
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+  }
+  
+  .nav-link:hover {
+    color: rgb(237, 102, 102);
+  }
+  
+  .d-flex {
+    color: rgb(19, 18, 18);
+    font-family: sans-serif, cursive;
+    font-weight: normal;
+  }
+  
+  .main {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./young-fitness-man-studio.jpg') no-repeat;
+    background-size: cover;
+    height: 110vh;
+  }
+  
+  .main h1 {
+    font-size: 5rem;
+    font-weight: 800;
+  }
+  .service-img {
+    width: 90%;  /* Ensures the image takes the full width of the container */
+    height: auto;  /* Maintains the aspect ratio */
+    margin-bottom: 1rem;  /* Adds space below the image */
+}
+  
+  .btn1 {
+    height: 55px;
+    width: 140px;
+    color: white;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, #f5634b 0%, #ed3a6c 100%);
+    transition: 1s;
+  }
+  
+  .btn1:hover {
+    background: linear-gradient(90deg, #ed3a6c 0%, #f5634b 100%);
+    transition: all 1s;
+  }
+  
+  .details {
+    margin-top: -65px;
+  }
+  
+  .details h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .details a {
+    text-decoration: none;
+    color: rgb(237, 102, 102);
+  }
+  
+  .back:hover {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .back {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.8s;
+  }
+  
+  .back::before {
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, #ed3a6c 0%, #f5634b 100%);
+    z-index: -1;
+    transition: all 0.8s;
+  }
+  
+  .back:hover::before {
+    height: 100%;
+  }
+  
+  .back:hover a {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .more h2 {
+    font-weight: 800;
+  }
+  
+  .more p {
+    font-weight: lighter;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+/* discover  */
+.discover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./woman-s.jpg);
+    background-size: cover;
+    width: 100%;
+
+}
+.discover h1{
+    font-weight:800;
+    font-size:2.8rem;
+}
+/* services  */
+.services h1{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.services h5{
+    font-weight: 700;
+
+}
+.fas{
+    font-size:2.5rem;
+}
+#fas{
+    font-size:3rem;
+}
+.back:hover .fas{
+    color:white;
+}
+.back:hover #fas{
+    color:white;
+}
+/* course */
+.course h1{
+    font-weight:800;
+    font-size:2.8rem;
+}
+.course .card{
+    border:none;
+
+}
+p{
+    font-weight: lighter;
+}
+.btn2{
+    height: 55px;
+    width: 80%;
+    color: white;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, #f5634b 0%, #ed3a6c 100%);
+    transition: 1s;
+}
+.btn2:hover{
+    background: linear-gradient(90deg, #ed3a6c 0%, #f5634b 100%);
+    transition: all 1s;
+}
+.footer{
+    background-color:rgb(240, 239, 239);
+    color:rgb(0, 0, 0);
+}
+.footer h4, h5 {
+    font-weight:900;
+}
+.footer p {
+    margin:0;
+    color:rgb(19, 19, 19);
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+link{
+    cursor:pointer;
+    transition: all 0,5s;
+}
+link:hover{
+    color: rgb(237, 102, 102);
+    padding-left:5px;
+    transition: all 0.5s;
+}
+.fa-angle-double-right{
+    font-size:18px;
+    color:rgb(20, 20, 20);
+}
+.social{
+    color:rgb(25, 23, 23);
+    font-size: 24px;
+    transition:all 0.4s;
+}
+.social:hover{
+    color:rgb(237, 102, 102);
+    transition:all 0.4s;
+    cursor:pointer;
+}
+/* icons */
+.material-symbols-outlined{
+    
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  
+}
+.service-card {
+    margin-bottom: 2rem;
+}
+/* sign in */
+.btn{
+    color:white;
+}
+.btn:hover{
+    color:white;
+}
+.btn-black {
+            background-color: black;
+            border-color: black;
+        }
+
+.btn-black:hover {
+ background-color: #333;
+border-color: #333;
+        }
+ /* for nav and footer */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: 'poppins',sans-serif; 
+}
+.background{
+       /* background-image: url('bgimg5.jpg') ;    */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex; 
+align-items: center;
+justify-content: center;
+background-color: white;
+ 
+}
+.booking-form{
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    border: 1px solid #adabab;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 0 rgba(215, 215, 215, 0);
+   
+}
+.booking-form h2{
+    text-align: center;
+}
+.booking-form form{
+    display: flex;
+    flex-direction: column;
+}
+.booking-form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-form button{
+    margin-top:10px;
+    padding: 10px;
+    background: linear-gradient(90deg, #f5634b 0%, #ed3a6c 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booking-form button:hover{
+    background: linear-gradient(90deg, #ed3a6c 0%, #f5634b 100%);
+}
+.amount-message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  .black-text {
+    color: black;
+}
